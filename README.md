@@ -5,3 +5,6 @@ The testing and official versions are included in the releases.
 (It uses Mcreator And IDEA)
 
 (this is a middle school student's self-made mod，so there may be some bug.
+
+
+Now we are making some changes for this project,so don't download the master(default).
