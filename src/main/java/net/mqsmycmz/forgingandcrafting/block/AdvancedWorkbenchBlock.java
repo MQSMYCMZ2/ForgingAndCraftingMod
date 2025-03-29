@@ -51,14 +51,16 @@ public class AdvancedWorkbenchBlock extends Block implements EntityBlock {
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
+		if (!dropsOriginal.isEmpty()) {
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+	} else {
+			return Collections.singletonList(new ItemStack(this, 1));
+		}
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean isMoving) {
+		super.onPlace(blockstate, world, pos, oldState, isMoving);
 		world.scheduleTick(pos, this, 1);
 	}
 

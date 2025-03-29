@@ -1,0 +1,19 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:forging_and_crafting:nether_nugget",
+    "item:forging_and_crafting:diamond_star_upgrade_axe{Damage:0}",
+    "item:minecraft:copper_block",
+    "item:minecraft:copper_ingot"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [
+      "minecraft:copper_block"
+    ],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

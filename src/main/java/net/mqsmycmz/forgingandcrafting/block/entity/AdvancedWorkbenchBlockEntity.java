@@ -1,5 +1,6 @@
 package net.mqsmycmz.forgingandcrafting.block.entity;
 
+import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.common.util.LazyOptional;
@@ -33,9 +34,18 @@ import io.netty.buffer.Unpooled;
 public class AdvancedWorkbenchBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(17, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
+	private final ItemStackHandler itemHandler = new ItemStackHandler(17);
 
 	public AdvancedWorkbenchBlockEntity(BlockPos position, BlockState state) {
 		super(ForgingAndCraftingModBlockEntities.ADVANCED_WORKBENCH.get(), position, state);
+	}
+
+	public ItemStack getStackInSlot(int slot) {
+		return itemHandler.getStackInSlot(slot);
+	}
+
+	public void setStackInSlot(int slot, ItemStack stack) {
+		itemHandler.setStackInSlot(slot, stack);
 	}
 
 	@Override
@@ -84,7 +94,7 @@ public class AdvancedWorkbenchBlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public int getMaxStackSize() {
-		return 1;
+		return 64;
 	}
 
 	@Override

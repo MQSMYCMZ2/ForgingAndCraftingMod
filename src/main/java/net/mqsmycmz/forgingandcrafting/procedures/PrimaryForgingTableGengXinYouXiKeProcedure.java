@@ -1,16 +1,14 @@
 package net.mqsmycmz.forgingandcrafting.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
-
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
-
-import net.mqsmycmz.forgingandcrafting.registry.ForgingAndCraftingModItems;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.items.IItemHandlerModifiable;
 import net.mqsmycmz.forgingandcrafting.registry.ForgingAndCraftingModBlocks;
+import net.mqsmycmz.forgingandcrafting.registry.ForgingAndCraftingModItems;
 
 import java.util.concurrent.atomic.AtomicReference;
 

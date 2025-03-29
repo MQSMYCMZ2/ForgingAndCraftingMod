@@ -222,6 +222,16 @@ public class AdvancedWorkbenchGuiMenu extends AbstractContainerMenu implements S
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
+
+			@Override
+			public int getMaxStackSize() {
+				return 64;
+			}
+
+			@Override
+			public boolean mayPickup(Player player) {
+				return true;
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -267,80 +277,58 @@ public class AdvancedWorkbenchGuiMenu extends AbstractContainerMenu implements S
 		return itemstack;
 	}
 
+
 	@Override
-	protected boolean moveItemStackTo(ItemStack p_38904_, int p_38905_, int p_38906_, boolean p_38907_) {
-		boolean flag = false;
-		int i = p_38905_;
-		if (p_38907_) {
-			i = p_38906_ - 1;
-		}
-		if (p_38904_.isStackable()) {
-			while (!p_38904_.isEmpty()) {
-				if (p_38907_) {
-					if (i < p_38905_) {
-						break;
-					}
-				} else if (i >= p_38906_) {
-					break;
-				}
-				Slot slot = this.slots.get(i);
-				ItemStack itemstack = slot.getItem();
-				if (slot.mayPlace(itemstack) && !itemstack.isEmpty() && ItemStack.isSameItemSameTags(p_38904_, itemstack)) {
-					int j = itemstack.getCount() + p_38904_.getCount();
-					int maxSize = Math.min(slot.getMaxStackSize(), p_38904_.getMaxStackSize());
-					if (j <= maxSize) {
-						p_38904_.setCount(0);
-						itemstack.setCount(j);
-						slot.set(itemstack);
-						flag = true;
-					} else if (itemstack.getCount() < maxSize) {
-						p_38904_.shrink(maxSize - itemstack.getCount());
-						itemstack.setCount(maxSize);
-						slot.set(itemstack);
-						flag = true;
+	protected boolean moveItemStackTo(ItemStack stack, int startIndex, int endIndex, boolean reverseDirection) {
+		boolean moved = false;
+		int currentIndex = reverseDirection ? endIndex - 1 : startIndex;
+
+		// 优先尝试堆叠已有物品
+		if (stack.isStackable()) {
+			while (!stack.isEmpty()) {
+				if (reverseDirection ? currentIndex < startIndex : currentIndex >= endIndex) break;
+
+				Slot slot = this.slots.get(currentIndex);
+				ItemStack slotStack = slot.getItem();
+
+				if (slot.mayPlace(stack) && ItemStack.isSameItemSameTags(stack, slotStack)) {
+					int total = slotStack.getCount() + stack.getCount();
+					int maxSize = Math.min(slot.getMaxStackSize(), stack.getMaxStackSize());
+
+					if (total <= maxSize) {
+						stack.setCount(0);
+						slotStack.setCount(total);
+						moved = true;
+					} else if (slotStack.getCount() < maxSize) {
+						stack.shrink(maxSize - slotStack.getCount());
+						slotStack.setCount(maxSize);
+						moved = true;
 					}
 				}
-				if (p_38907_) {
-					--i;
-				} else {
-					++i;
-				}
+				currentIndex += reverseDirection ? -1 : 1;
 			}
 		}
-		if (!p_38904_.isEmpty()) {
-			if (p_38907_) {
-				i = p_38906_ - 1;
-			} else {
-				i = p_38905_;
-			}
-			while (true) {
-				if (p_38907_) {
-					if (i < p_38905_) {
-						break;
-					}
-				} else if (i >= p_38906_) {
-					break;
+
+		// 寻找空槽放置剩余物品
+		if (!stack.isEmpty()) {
+			currentIndex = reverseDirection ? endIndex - 1 : startIndex;
+
+			while (reverseDirection ? currentIndex >= startIndex : currentIndex < endIndex) {
+				Slot slot = this.slots.get(currentIndex);
+				ItemStack slotStack = slot.getItem();
+
+				if (slotStack.isEmpty() && slot.mayPlace(stack)) {
+					int maxSize = Math.min(slot.getMaxStackSize(), stack.getMaxStackSize());
+					ItemStack split = stack.split(maxSize);
+					slot.set(split);
+					moved = true;
+					if (stack.isEmpty()) break;
 				}
-				Slot slot1 = this.slots.get(i);
-				ItemStack itemstack1 = slot1.getItem();
-				if (itemstack1.isEmpty() && slot1.mayPlace(p_38904_)) {
-					if (p_38904_.getCount() > slot1.getMaxStackSize()) {
-						slot1.set(p_38904_.split(slot1.getMaxStackSize()));
-					} else {
-						slot1.set(p_38904_.split(p_38904_.getCount()));
-					}
-					slot1.setChanged();
-					flag = true;
-					break;
-				}
-				if (p_38907_) {
-					--i;
-				} else {
-					++i;
-				}
+				currentIndex += reverseDirection ? -1 : 1;
 			}
 		}
-		return flag;
+
+		return moved;
 	}
 
 	@Override
