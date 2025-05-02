@@ -1,0 +1,64 @@
+modLoader="javafml"
+
+loaderVersion="[43,)"
+
+license="Academic Free License v3.0"
+
+[[mods]]
+
+modId="forging_and_crafting"
+
+version="1.19.2-2.0.2"
+
+displayName="Forging and Crafting"
+
+logoFile="forging_and_crafting.png"
+
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+
+displayURL="https://mcreator.net"
+
+authors="MQSMY_CMZ2, MCreator"
+description = '''
+Lets Forging And Crafting!
+'''
+
+[[dependencies.forging_and_crafting]]
+
+    modId="forge"
+
+    mandatory=true
+
+    versionRange = "[43,)"
+
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forging_and_crafting]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.forging_and_crafting]]
+    modId="emi"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.forging_and_crafting]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.forging_and_crafting]]
+    modId="jade"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

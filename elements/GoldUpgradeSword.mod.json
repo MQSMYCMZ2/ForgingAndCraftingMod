@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldupgrade1",
+    "customModelName": "Normal",
+    "name": "Gold Upgrade Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 6,
+    "efficiency": 28.0,
+    "attackSpeed": 10.0,
+    "enchantability": 28,
+    "damageVsEntity": 20.0,
+    "usageCount": 4090,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoldStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "GoldStarUpgradeSwordDGJCZSSS"
+    }
+  }
+}

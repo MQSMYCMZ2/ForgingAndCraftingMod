@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netheeritestarupgradeshovel",
+    "customModelName": "Normal",
+    "name": "Netherite Upgrade Star Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 10,
+    "efficiency": 45.0,
+    "attackSpeed": 8.0,
+    "enchantability": 45,
+    "damageVsEntity": 30.0,
+    "usageCount": 8000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NetherUpgradeStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "NetheriteUpgradeStarShovelDGJCZSSS"
+    }
+  }
+}

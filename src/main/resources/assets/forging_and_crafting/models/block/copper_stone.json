@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/copper_stone",
+    "up": "forging_and_crafting:blocks/copper_stone",
+    "north": "forging_and_crafting:blocks/copper_stone",
+    "east": "forging_and_crafting:blocks/copper_stone",
+    "south": "forging_and_crafting:blocks/copper_stone",
+    "west": "forging_and_crafting:blocks/copper_stone",
+    "particle": "forging_and_crafting:blocks/copper_stone"
+  },
+  "render_type": "solid"
+}

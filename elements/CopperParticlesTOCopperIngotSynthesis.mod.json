@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      },
+      {
+        "value": "CUSTOM:CopperParticles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "name": "copper_particles_to_copper_ingot_synthesis",
+    "namespace": "mod"
+  }
+}

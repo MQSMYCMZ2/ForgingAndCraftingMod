@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "up": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "north": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "east": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "south": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "west": "forging_and_crafting:blocks/iron_upgrade_star_roe",
+    "particle": "forging_and_crafting:blocks/iron_upgrade_star_roe"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/economic_cluster_stone",
+    "up": "forging_and_crafting:blocks/economic_cluster_stone",
+    "north": "forging_and_crafting:blocks/economic_cluster_stone",
+    "east": "forging_and_crafting:blocks/economic_cluster_stone",
+    "south": "forging_and_crafting:blocks/economic_cluster_stone",
+    "west": "forging_and_crafting:blocks/economic_cluster_stone",
+    "particle": "forging_and_crafting:blocks/economic_cluster_stone"
+  },
+  "render_type": "solid"
+}

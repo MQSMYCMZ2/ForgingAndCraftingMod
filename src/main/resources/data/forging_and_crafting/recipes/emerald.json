@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 50,
+  "experience": 1,
+  "ingredient": {
+    "item": "forging_and_crafting:rough_emerald"
+  },
+  "result": "minecraft:emerald"
+}

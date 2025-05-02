@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forging_and_crafting:items/copper_particles"
+  }
+}

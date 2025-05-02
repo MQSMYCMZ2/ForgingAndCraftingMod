@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamondstarupgradeaxe",
+    "customModelName": "Normal",
+    "name": "Diamond Star Upgrade Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 8,
+    "efficiency": 30.0,
+    "attackSpeed": 8.0,
+    "enchantability": 30,
+    "damageVsEntity": 35.0,
+    "usageCount": 6800,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DiamondStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "DiamondStarUpgradeAxeDGJCZSSS"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "forging_and_crafting:block/forging_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "forging_and_crafting:block/forging_world_portal_ns"
+    }
+  }
+}

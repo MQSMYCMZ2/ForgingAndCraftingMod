@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "forging_and_crafting:block/copper_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "forging_and_crafting:block/copper_log"
+    },
+    "axis=z": {
+      "model": "forging_and_crafting:block/copper_log",
+      "x": 90
+    }
+  }
+}

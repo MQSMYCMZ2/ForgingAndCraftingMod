@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "forging_and_crafting:nether_nugget"
+    },
+    {
+      "item": "forging_and_crafting:nether_nugget"
+    },
+    {
+      "item": "forging_and_crafting:nether_nugget"
+    },
+    {
+      "item": "forging_and_crafting:nether_nugget"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

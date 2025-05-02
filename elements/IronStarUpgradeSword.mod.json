@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_sword",
+    "customModelName": "Normal",
+    "name": "Iron Star Upgrade Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 25.0,
+    "attackSpeed": 5.0,
+    "enchantability": 25,
+    "damageVsEntity": 15.0,
+    "usageCount": 3080,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:IronStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "IronStarUpgradeSwordDangGongJuChuXianZaiShouZhongShi"
+    }
+  }
+}

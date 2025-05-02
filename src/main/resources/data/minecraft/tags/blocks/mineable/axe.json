@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "forging_and_crafting:advanced_workbench",
+    "forging_and_crafting:copper_planks",
+    "forging_and_crafting:copper_log",
+    "forging_and_crafting:economic_cluster_plank",
+    "forging_and_crafting:economic_cluster_log"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "forging_and_crafting:iron_star_upgrade_pickaxe"
+  },
+  "addition": {
+    "item": "forging_and_crafting:gold_star"
+  },
+  "result": {
+    "item": "forging_and_crafting:gold_upgrade_pickaxe"
+  }
+}

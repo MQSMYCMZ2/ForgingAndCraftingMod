@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/glow_stone",
+    "up": "forging_and_crafting:blocks/ultimate_forging_table_top",
+    "north": "forging_and_crafting:blocks/ultimate_forging_table_side",
+    "east": "forging_and_crafting:blocks/ultimate_forging_table_side",
+    "south": "forging_and_crafting:blocks/ultimate_forging_table_side",
+    "west": "forging_and_crafting:blocks/ultimate_forging_table_side",
+    "particle": "forging_and_crafting:blocks/glow_stone"
+  },
+  "render_type": "solid"
+}

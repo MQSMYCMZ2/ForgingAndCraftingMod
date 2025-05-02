@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/advanced_workbench_top",
+    "up": "forging_and_crafting:blocks/advanced_workbench_top",
+    "north": "forging_and_crafting:blocks/ultimate_synthesis_platform_side_north",
+    "east": "forging_and_crafting:blocks/ultimate_synthesis_platform_side_east",
+    "south": "forging_and_crafting:blocks/ultimate_synthesis_platform_side_north",
+    "west": "forging_and_crafting:blocks/ultimate_synthesis_platform_side_east",
+    "particle": "forging_and_crafting:blocks/advanced_workbench_top"
+  },
+  "render_type": "solid"
+}

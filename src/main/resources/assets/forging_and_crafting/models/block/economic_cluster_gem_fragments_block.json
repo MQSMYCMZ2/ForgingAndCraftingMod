@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "forging_and_crafting:blocks/economic_cluster_gem_fragments_block"
+  },
+  "render_type": "solid"
+}

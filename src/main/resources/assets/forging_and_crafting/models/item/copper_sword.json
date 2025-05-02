@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "forging_and_crafting:items/copper_sword"
+  }
+}

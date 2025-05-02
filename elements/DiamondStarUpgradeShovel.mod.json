@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamondstarupgradeshovel",
+    "customModelName": "Normal",
+    "name": "Diamond Star Upgrade Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 8,
+    "efficiency": 30.0,
+    "attackSpeed": 1.0,
+    "enchantability": 30,
+    "damageVsEntity": 20.0,
+    "usageCount": 6800,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DiamondStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "DiamondStarUpgradeShovelDGJCZSSS"
+    }
+  }
+}

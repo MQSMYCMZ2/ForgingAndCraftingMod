@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/coarse_dirt",
+    "up": "forging_and_crafting:blocks/green_concrete_powder",
+    "north": "forging_and_crafting:blocks/grass_block_side",
+    "east": "forging_and_crafting:blocks/grass_block_side",
+    "south": "forging_and_crafting:blocks/grass_block_side",
+    "west": "forging_and_crafting:blocks/grass_block_side",
+    "particle": "forging_and_crafting:blocks/coarse_dirt"
+  },
+  "render_type": "solid"
+}

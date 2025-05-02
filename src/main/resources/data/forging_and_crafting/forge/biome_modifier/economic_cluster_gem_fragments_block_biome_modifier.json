@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "forging_and_crafting:economic_cluster_gem_fragments_block",
+  "step": "underground_ores"
+}

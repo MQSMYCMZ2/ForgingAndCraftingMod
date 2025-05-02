@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/birch_planks",
+    "up": "forging_and_crafting:blocks/birch_planks",
+    "north": "forging_and_crafting:blocks/birch_planks",
+    "east": "forging_and_crafting:blocks/birch_planks",
+    "south": "forging_and_crafting:blocks/birch_planks",
+    "west": "forging_and_crafting:blocks/birch_planks",
+    "particle": "forging_and_crafting:blocks/birch_planks"
+  },
+  "render_type": "solid"
+}

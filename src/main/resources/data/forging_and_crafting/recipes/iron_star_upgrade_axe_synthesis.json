@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "forging_and_crafting:iron_star"
+  },
+  "result": {
+    "item": "forging_and_crafting:iron_star_upgrade_axe"
+  }
+}

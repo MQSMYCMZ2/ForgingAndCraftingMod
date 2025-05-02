@@ -1,0 +1,2234 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperSwordItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperParticles",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_particles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperParticlesItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_particles.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/CopperSwordDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordSynthesis",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_sword_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperParticlesTOCopperIngotSynthesis",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_particles_to_copper_ingot_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_particles_to_copper_ingot_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeDangGongJuChuZhaiShouShanShi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_dang_gong_ju_chu_zhai_shou_shan_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/CopperPickaxeDangGongJuChuZhaiShouShanShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeSynthesis",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_pickaxe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelDangGongJuZhaiShouShangShi",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_dang_gong_ju_zhai_shou_shang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/CopperShovelDangGongJuZhaiShouShangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelSynthesis",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_shovel_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperHoeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/CopperHoeDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperAxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/CopperAxeDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_armor_chestplate.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_armor_helmet.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeSynthesis",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_hoe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeSynthesis",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_axe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeSynthesis1",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_synthesis_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_axe_synthesis_1.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgingAndCrafting",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_and_crafting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PrimaryForgingTable",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primary_forging_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/block/primary_forging_table.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/PrimaryForgingTableBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/primary_forging_table.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/primary_forging_table.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/entity/PrimaryForgingTableBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimaryForgingTableGui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "primary_forging_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/inventory/PrimaryForgingTableGuiMenu.java",
+          "src/main/java/net/mcreator/forgingandcrafting/client/gui/PrimaryForgingTableGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "IronUpgrade",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_upgrade.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronUpgradeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgrade",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldUpgradeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_upgrade.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStar",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PrimaryForgingTableGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primary_forging_table_geng_xin_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/PrimaryForgingTableGengXinYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWorkbench",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/block/advanced_workbench.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/AdvancedWorkbenchBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/advanced_workbench.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/advanced_workbench.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/entity/AdvancedWorkbenchBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWorkbenchGui",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advanced_workbench_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/client/gui/AdvancedWorkbenchGuiScreen.java",
+          "src/main/java/net/mcreator/forgingandcrafting/world/inventory/AdvancedWorkbenchGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWorkbenchGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_workbench_geng_xin_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/AdvancedWorkbenchGengXinYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperStar",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/CopperStarItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_star.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperStarSynthesis",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_star_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_star_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldStar",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldStarItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_star.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWorkbenchSynthesis",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_workbench_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/advanced_workbench_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradePickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarUpgradePickaxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star_upgrade_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradePickaxeSynthesis",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_pickaxe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/iron_star_upgrade_pickaxe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradePickaxeDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_pickaxe_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/IronStarUpgradePickaxeDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeAxeDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_axe_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/IronStarUpgradeAxeDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeAxe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarUpgradeAxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star_upgrade_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeShovelDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_shovel_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/IronStarUpgradeShovelDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeShovel",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarUpgradeShovelItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star_upgrade_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeSwordDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_sword_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/IronStarUpgradeSwordDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeSword",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarUpgradeSwordItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star_upgrade_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeAxeSynthesis",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_axe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/iron_star_upgrade_axe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeShovle",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_shovle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/iron_star_upgrade_shovle.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeSwordSynthesis",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_sword_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/iron_star_upgrade_sword_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/IronStarUpgradeHoeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_star_upgrade_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeHoeDangGongJuChuXianZaiShouZhongShi",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_hoe_dang_gong_ju_chu_xian_zai_shou_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/IronStarUpgradeHoeDangGongJuChuXianZaiShouZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronStarUpgradeHoeSynthesis",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_star_upgrade_hoe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/iron_star_upgrade_hoe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradePickaxe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldUpgradePickaxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_upgrade_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradePickaxeDanggongJuChuZaiShouShangShi",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_pickaxe_danggong_ju_chu_zai_shou_shang_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/GoldUpgradePickaxeDanggongJuChuZaiShouShangShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradePickaxeSynthesis",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_pickaxe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/gold_upgrade_pickaxe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeAxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_upgrade_axe.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldUpgradeAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeAxeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_axe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/GoldUpgradeAxeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeAxeSynthesis",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_axe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/gold_upgrade_axe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldUpgradeShovelItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_upgrade_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeShovelSynthesis",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_shovel_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/GoldUpgradeShovelSynthesisProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeShovelSynthesis0",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_shovel_synthesis_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/gold_upgrade_shovel_synthesis_0.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_upgrade_sword.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldUpgradeSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldStarUpgradeSwordDGJCZSSS",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_star_upgrade_sword_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/GoldStarUpgradeSwordDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldStrarUpgradeSwordSynthesis",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_strar_upgrade_sword_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/gold_strar_upgrade_sword_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldStarUpgradeHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_star_upgrade_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/GoldStarUpgradeHoeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/gold_star_upgrade_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldStarUpgradeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_star_upgrade_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/GoldStarUpgradeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldStarUpgradeHoeSynthesis",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_star_upgrade_hoe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/gold_star_upgrade_hoe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPlanks",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/block/CopperPlanksBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_planks.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/copper_planks.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/copper_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperLog",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/block/CopperLogBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_log.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/copper_log.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/copper_log.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgingHouse",
+      "type": "structure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/features/ForgingHouseFeature.java",
+          "src/main/resources/data/forging_and_crafting/forge/biome_modifier/forging_house_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgingWorldGlassBlock",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_world_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/blockstates/forging_world_glass_block.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/ForgingWorldGlassBlockBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/block/forging_world_glass_block.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/forging_world_glass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperStarBlock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_star_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/features/ores/CopperStarBlockFeature.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_star_block.json",
+          "src/main/resources/data/forging_and_crafting/forge/biome_modifier/copper_star_block_biome_modifier.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/CopperStarBlockBlock.java",
+          "src/main/resources/assets/forging_and_crafting/blockstates/copper_star_block.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/copper_star_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperStone",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/block/CopperStoneBlock.java",
+          "src/main/resources/assets/forging_and_crafting/blockstates/copper_stone.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/copper_stone.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/copper_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgingWorldSWQX",
+      "type": "biome",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_world_swqx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/biome/ForgingWorldSWQXBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "ForgingWorld",
+      "type": "dimension",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/dimension/ForgingWorldDimension.java",
+          "src/main/resources/assets/forging_and_crafting/blockstates/forging_world_portal.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/forging_world_portal_ew.json",
+          "src/main/java/net/mcreator/forgingandcrafting/world/teleporter/ForgingWorldPortalShape.java",
+          "src/main/java/net/mcreator/forgingandcrafting/block/ForgingWorldPortalBlock.java",
+          "src/main/java/net/mcreator/forgingandcrafting/item/ForgingWorldItem.java",
+          "src/main/java/net/mcreator/forgingandcrafting/world/teleporter/ForgingWorldTeleporter.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/forging_world.json",
+          "src/main/resources/data/forging_and_crafting/dimension_type/forging_world.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/forging_world_portal_ns.json",
+          "src/main/resources/data/forging_and_crafting/dimension/forging_world.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperTree",
+      "type": "structure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/forge/biome_modifier/copper_tree_biome_modifier.json",
+          "src/main/java/net/mcreator/forgingandcrafting/world/features/CopperTreeFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPlanksSynthesis",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_planks_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/copper_planks_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgingWorldPortalIgniterSynthesis",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forging_world_portal_igniter_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/forging_world_portal_igniter_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "UltimateSynthesisPlatform",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_synthesis_platform",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/ultimate_synthesis_platform.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/ultimate_synthesis_platform.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/entity/UltimateSynthesisPlatformBlockEntity.java",
+          "src/main/java/net/mcreator/forgingandcrafting/block/UltimateSynthesisPlatformBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/block/ultimate_synthesis_platform.json"
+        ]
+      }
+    },
+    {
+      "name": "UltimateSynthesisPlatformGui",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ultimate_synthesis_platform_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/inventory/UltimateSynthesisPlatformGuiMenu.java",
+          "src/main/java/net/mcreator/forgingandcrafting/client/gui/UltimateSynthesisPlatformGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "UltimateForgingTable",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_forging_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/block/entity/UltimateForgingTableBlockEntity.java",
+          "src/main/java/net/mcreator/forgingandcrafting/block/UltimateForgingTableBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/block/ultimate_forging_table.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/ultimate_forging_table.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/ultimate_forging_table.json"
+        ]
+      }
+    },
+    {
+      "name": "UltimateSynthesisPlatformGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_synthesis_platform_geng_xin_you_xi_ke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/UltimateSynthesisPlatformGengXinYouXiKeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondUpgrade",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_upgrade.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondUpgradeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IronUpgradeStarRoe",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_upgrade_star_roe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/features/ores/IronUpgradeStarRoeFeature.java",
+          "src/main/java/net/mcreator/forgingandcrafting/block/IronUpgradeStarRoeBlock.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/iron_upgrade_star_roe.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/iron_upgrade_star_roe.json",
+          "src/main/resources/data/forging_and_crafting/forge/biome_modifier/iron_upgrade_star_roe_biome_modifier.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/iron_upgrade_star_roe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStar",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_star.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondStarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UltimateForgingTableGui",
+      "type": "gui",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ultimate_forging_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/inventory/UltimateForgingTableGuiMenu.java",
+          "src/main/java/net/mcreator/forgingandcrafting/client/gui/UltimateForgingTableGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "UltimateForgingTableGuiStart",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_forging_table_gui_start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/UltimateForgingTableGuiStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherUpgradeStar",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_upgrade_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetherUpgradeStarItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/nether_upgrade_star.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherUpgrade",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetherUpgradeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/nether_upgrade.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherNugget",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetherNuggetItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/nether_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherScrapTONetherNugget",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_scrap_to_nether_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/nether_scrap_to_nether_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherNuggetBlock",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_nugget_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/nether_nugget_block.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/nether_nugget_block.json",
+          "src/main/resources/data/forging_and_crafting/forge/biome_modifier/nether_nugget_block_biome_modifier.json",
+          "src/main/java/net/mcreator/forgingandcrafting/world/features/ores/NetherNuggetBlockFeature.java",
+          "src/main/resources/assets/forging_and_crafting/models/block/nether_nugget_block.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/NetherNuggetBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NetherNuggetTONetheriteScarp",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_nugget_to_netherite_scarp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/nether_nugget_to_netherite_scarp.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondUpgradeSword",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_upgrade_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondUpgradeSwordItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_upgrade_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeSwordDGJCZSSS",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_sword_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/DiamondStarUpgradeSwordDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondUpgradePickaxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_upgrade_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_upgrade_pickaxe.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondUpgradePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/DiamondStarUpgradeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeAxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondStarUpgradeAxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_star_upgrade_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeAxeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_axe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/DiamondStarUpgradeAxeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeShovel",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondStarUpgradeShovelItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_star_upgrade_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeShovelDGJCZSSS",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_shovel_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/DiamondStarUpgradeShovelDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeHoe",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/diamond_star_upgrade_hoe.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/DiamondStarUpgradeHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeHoeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_hoe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/DiamondStarUpgradeHoeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeSwordSynthesis",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_sword_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/diamond_star_upgrade_sword_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradePickaxeSynthesis",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_pickaxe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/diamond_star_upgrade_pickaxe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeAxeSynthesis",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_axe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/diamond_star_upgrade_axe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeShovelSynthesis",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_shovel_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/diamond_star_upgrade_shovel_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondStarUpgradeHoeSynthesis",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_star_upgrade_hoe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/diamond_star_upgrade_hoe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarPickaxe",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetheriteUpgradeStarPickaxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/netherite_upgrade_star_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarPickaxeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_pickaxe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/NetheriteUpgradeStarPickaxeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarPickaxeSynthesis",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_pickaxe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/netherite_upgrade_star_pickaxe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarAxe",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetheriteUpgradeStarAxeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/netherite_upgrade_star_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarAxeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_axe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/NetheriteUpgradeStarAxeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarAxeSynthesis",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_axe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/netherite_upgrade_star_axe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarShovel",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/netherite_upgrade_star_shovel.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetheriteUpgradeStarShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarShovelDGJCZSSS",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_shovel_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/NetheriteUpgradeStarShovelDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarShovelSynthesis",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_shovel_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/netherite_upgrade_star_shovel_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarHoe",
+      "type": "tool",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/item/NetheriteUpgradeStarHoeItem.java",
+          "src/main/resources/assets/forging_and_crafting/models/item/netherite_upgrade_star_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarHoeDGJCZSSS",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_hoe_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/NetheriteUpgradeStarHoeDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarHoeSynthesis",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_hoe_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/netherite_upgrade_star_hoe_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "MetheriteUpgradeStarSword",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/netherite_upgrade_star_sword.json",
+          "src/main/java/net/mcreator/forgingandcrafting/item/MetheriteUpgradeStarSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarSwordDGJCZSSS",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_sword_dgjczsss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/procedures/NetheriteUpgradeStarSwordDGJCZSSSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarSwordSynthesis",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_sword_synthesis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/recipes/netherite_upgrade_star_sword_synthesis.json"
+        ]
+      }
+    },
+    {
+      "name": "IronUpgradeStarALL",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_upgrade_star_all",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/advancements/iron_upgrade_star_all.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldUpgradeStarALL",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_upgrade_star_all",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/advancements/gold_upgrade_star_all.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondUpgradeStarALL",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_upgrade_star_all",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/advancements/diamond_upgrade_star_all.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeStarALL",
+      "type": "achievement",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_upgrade_star_all",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forging_and_crafting/advancements/netherite_upgrade_star_all.json"
+        ]
+      }
+    },
+    {
+      "name": "FlyingApsaras",
+      "type": "enchantment",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flying_apsaras",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/enchantment/FlyingApsarasEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "EconomicClusterGlassBlock",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economic_cluster_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/economic_cluster_glass_block.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/economic_cluster_glass_block.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/economic_cluster_glass_block.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/EconomicClusterGlassBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EconomicClusterStone",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economic_cluster_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/block/EconomicClusterStoneBlock.java",
+          "src/main/resources/assets/forging_and_crafting/blockstates/economic_cluster_stone.json",
+          "src/main/resources/assets/forging_and_crafting/models/item/economic_cluster_stone.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/economic_cluster_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "EconomicClusterPlank",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economic_cluster_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/economic_cluster_plank.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/economic_cluster_plank.json",
+          "src/main/resources/assets/forging_and_crafting/blockstates/economic_cluster_plank.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/EconomicClusterPlankBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EconomicClusterLog",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economic_cluster_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forging_and_crafting/models/item/economic_cluster_log.json",
+          "src/main/resources/assets/forging_and_crafting/models/block/economic_cluster_log.json",
+          "src/main/java/net/mcreator/forgingandcrafting/block/EconomicClusterLogBlock.java",
+          "src/main/resources/assets/forging_and_crafting/blockstates/economic_cluster_log.json"
+        ]
+      }
+    },
+    {
+      "name": "EconomicCluster",
+      "type": "biome",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "economic_cluster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/forgingandcrafting/world/biome/EconomicClusterBiome.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.forging_and_crafting.diamond_upgrade_pickaxe": "Diamond Upgrade Pickaxe",
+      "item.forging_and_crafting.iron_star_upgrade_shovel": "Iron Star Upgrade Shovel",
+      "item.forging_and_crafting.iron_upgrade": "Iron Upgrade",
+      "item.forging_and_crafting.netherite_upgrade_star_pickaxe": "Netherite Upgrade Star Pickaxe",
+      "item.forging_and_crafting.copper_armor_chestplate": "Copper Chestplate",
+      "block.forging_and_crafting.ultimate_synthesis_platform": "Ultimate Synthesis Platform",
+      "block.forging_and_crafting.forging_world_glass_block": "Forging World Glass Block",
+      "block.forging_and_crafting.copper_stone": "Copper Stone",
+      "item.forging_and_crafting.iron_star_upgrade_hoe": "Iron Star Upgrade Hoe",
+      "item.forging_and_crafting.copper_sword": "Copper Sword",
+      "advancements.iron_upgrade_star_all.descr": "When the player obtains the upgraded iron star",
+      "item.forging_and_crafting.copper_armor_leggings": "Copper Leggings",
+      "item.forging_and_crafting.iron_star": "Iron Star",
+      "block.forging_and_crafting.copper_planks": "Copper Planks",
+      "item.forging_and_crafting.gold_star": "Gold Star",
+      "block.forging_and_crafting.copper_log": "Copper Log",
+      "item.forging_and_crafting.copper_axe": "Copper Axe",
+      "item.forging_and_crafting.gold_upgrade_axe": "Gold Upgrade Axe",
+      "item.forging_and_crafting.diamond_star_upgrade_shovel": "Diamond Star Upgrade Shovel",
+      "item.forging_and_crafting.diamond_star_upgrade_hoe": "Diamond Star Upgrade Hoe",
+      "advancements.diamond_upgrade_star_all.title": "Diamond Upgrade Star ALL",
+      "item.forging_and_crafting.netherite_upgrade_star_sword": "Netherite Upgrade Star Sword",
+      "item.forging_and_crafting.copper_armor_helmet": "Copper Helmet",
+      "advancements.gold_upgrade_star_all.descr": "When the player obtains the upgraded glod star",
+      "item.forging_and_crafting.copper_star": "Copper Star",
+      "advancements.iron_upgrade_star_all.title": "Iron Upgrade Star ALL",
+      "block.forging_and_crafting.ultimate_forging_table": "Ultimate Forging Table",
+      "item.forging_and_crafting.copper_shovel": "Copper Shovel",
+      "item.forging_and_crafting.diamond_star": "Diamond Star",
+      "itemGroup.tabforging_and_crafting": "Forging And Crafting",
+      "item.forging_and_crafting.diamond_upgrade": "Diamond Upgrade",
+      "item.forging_and_crafting.diamond_upgrade_sword": "Diamond Upgrade Sword",
+      "block.forging_and_crafting.nether_nugget_block": "Nether Nugget Block",
+      "enchantment.forging_and_crafting.flying_apsaras": "Flying Apsaras",
+      "block.forging_and_crafting.economic_cluster_plank": "Economic Cluster Plank",
+      "item.forging_and_crafting.iron_star_upgrade_axe": "Iron Star Upgrade Axe",
+      "item.forging_and_crafting.iron_star_upgrade_sword": "Iron Star Upgrade Sword",
+      "block.forging_and_crafting.iron_upgrade_star_roe": "Iron Upgrade Star Roe",
+      "block.forging_and_crafting.economic_cluster_glass_block": "Economic Cluster Glass Block",
+      "block.forging_and_crafting.economic_cluster_stone": "Economic Cluster Stone",
+      "item.forging_and_crafting.copper_hoe": "Copper Hoe",
+      "item.forging_and_crafting.copper_pickaxe": "Copper Pickaxe",
+      "item.forging_and_crafting.gold_upgrade_sword": "Gold Upgrade Sword",
+      "item.forging_and_crafting.gold_upgrade": "Gold Upgrade",
+      "block.forging_and_crafting.economic_cluster_log": "Economic Cluster Log",
+      "item.forging_and_crafting.iron_star_upgrade_pickaxe": "Iron Star Upgrade Pickaxe",
+      "item.forging_and_crafting.gold_upgrade_shovel": "Gold Upgrade Shovel",
+      "block.forging_and_crafting.copper_star_block": "Copper Star Block",
+      "item.forging_and_crafting.nether_upgrade": "Nether Upgrade",
+      "item.forging_and_crafting.netherite_upgrade_star_axe": "Netherite Upgrade Star Axe",
+      "advancements.netherite_upgrade_star_all.title": "Netherite Upgrade Star ALL",
+      "advancements.netherite_upgrade_star_all.descr": "When the player obtains the upgraded netherite star",
+      "block.forging_and_crafting.advanced_workbench": "Advanced Workbench",
+      "biome.forging_and_crafting.economic_cluster": "Economic Cluster",
+      "item.forging_and_crafting.copper_armor_boots": "Copper Boots",
+      "item.forging_and_crafting.nether_upgrade_star": "Nether Upgrade Star",
+      "item.forging_and_crafting.forging_world": "Forging World Portal Igniter",
+      "advancements.gold_upgrade_star_all.title": "Gold Upgrade Star ALL",
+      "item.forging_and_crafting.netherite_upgrade_star_hoe": "Netherite Upgrade Star Hoe",
+      "block.forging_and_crafting.primary_forging_table": "Primary Forging Table",
+      "item.forging_and_crafting.gold_upgrade_pickaxe": "Gold Upgrade Pickaxe",
+      "advancements.diamond_upgrade_star_all.descr": "When the player obtains the upgraded diamond star",
+      "item.forging_and_crafting.gold_star_upgrade_hoe": "Gold Star Upgrade Hoe",
+      "item.forging_and_crafting.diamond_star_upgrade_axe": "Diamond Star Upgrade Axe",
+      "item.forging_and_crafting.netherite_upgrade_star_shovel": "Netherite Upgrade Star Shovel",
+      "item.forging_and_crafting.nether_nugget": "Nether Nugget",
+      "biome.forging_and_crafting.forging_world_swqx": "Forging World SWQX",
+      "item.forging_and_crafting.copper_particles": "Copper Particles"
+    },
+    "zh_cn": {
+      "item.forging_and_crafting.iron_star_upgrade_shovel": "升级铁之铲",
+      "item.forging_and_crafting.diamond_upgrade_pickaxe": "升级钻石之稿",
+      "item.forging_and_crafting.iron_upgrade": "铁之升级模板",
+      "item.forging_and_crafting.netherite_upgrade_star_pickaxe": "升级下界合金之稿",
+      "item.forging_and_crafting.copper_armor_chestplate": "铜头盔",
+      "block.forging_and_crafting.ultimate_synthesis_platform": "终极工作台",
+      "block.forging_and_crafting.forging_world_glass_block": "锻造草方块",
+      "item.forging_and_crafting.copper_sword": "铜剑",
+      "item.forging_and_crafting.iron_star_upgrade_hoe": "升级铁之锄",
+      "block.forging_and_crafting.copper_stone": "铜石",
+      "advancements.iron_upgrade_star_all.descr": "当玩家获得了升级铁之星",
+      "item.forging_and_crafting.copper_armor_leggings": "铜裤腿",
+      "item.forging_and_crafting.iron_star": "升级铁之星",
+      "block.forging_and_crafting.copper_planks": "铜木板",
+      "item.forging_and_crafting.gold_star": "升级金之星",
+      "block.forging_and_crafting.copper_log": "铜木",
+      "item.forging_and_crafting.copper_axe": "铜斧",
+      "item.forging_and_crafting.gold_upgrade_axe": "升级金之斧",
+      "item.forging_and_crafting.diamond_star_upgrade_shovel": "升级钻石之铲",
+      "item.forging_and_crafting.diamond_star_upgrade_hoe": "升级钻石之锄",
+      "advancements.diamond_upgrade_star_all.title": "升级钻石之星！！",
+      "item.forging_and_crafting.netherite_upgrade_star_sword": "升级下界合金之剑",
+      "item.forging_and_crafting.copper_armor_helmet": "铜胸甲",
+      "advancements.gold_upgrade_star_all.descr": "当玩家获得了升级金之星",
+      "item.forging_and_crafting.copper_star": "铜之星",
+      "advancements.iron_upgrade_star_all.title": "升级铁之星！！",
+      "block.forging_and_crafting.ultimate_forging_table": "终极锻造台",
+      "item.forging_and_crafting.copper_shovel": "铜锄",
+      "item.forging_and_crafting.diamond_star": "升级钻石之星",
+      "itemGroup.tabforging_and_crafting": "锻造与创造",
+      "item.forging_and_crafting.diamond_upgrade_sword": "升级钻石之剑",
+      "item.forging_and_crafting.diamond_upgrade": "钻石之升级模板",
+      "block.forging_and_crafting.nether_nugget_block": "下界合金碎片粒矿",
+      "enchantment.forging_and_crafting.flying_apsaras": "飞天",
+      "block.forging_and_crafting.economic_cluster_plank": "Economic Cluster Plank",
+      "item.forging_and_crafting.iron_star_upgrade_axe": "升级铁之斧",
+      "item.forging_and_crafting.iron_star_upgrade_sword": "升级铁之剑",
+      "block.forging_and_crafting.iron_upgrade_star_roe": "升级铁之星矿",
+      "block.forging_and_crafting.economic_cluster_glass_block": "Economic Cluster Glass Block",
+      "block.forging_and_crafting.economic_cluster_stone": "Economic Cluster Stone",
+      "item.forging_and_crafting.copper_hoe": "铜锄",
+      "item.forging_and_crafting.copper_pickaxe": "铜稿",
+      "item.forging_and_crafting.gold_upgrade_sword": "升级金之剑",
+      "item.forging_and_crafting.gold_upgrade": "金之升级模板",
+      "block.forging_and_crafting.economic_cluster_log": "Economic Cluster Log",
+      "item.forging_and_crafting.iron_star_upgrade_pickaxe": "升级铁之稿",
+      "item.forging_and_crafting.gold_upgrade_shovel": "升级金之铲",
+      "block.forging_and_crafting.copper_star_block": "铜星矿",
+      "item.forging_and_crafting.nether_upgrade": "下界合金之升级模板",
+      "item.forging_and_crafting.netherite_upgrade_star_axe": "升级下界合金之斧",
+      "advancements.netherite_upgrade_star_all.title": "升级下界合金之星！！",
+      "advancements.netherite_upgrade_star_all.descr": "当玩家获得了升级下界合金之星",
+      "block.forging_and_crafting.advanced_workbench": "高级工作台",
+      "biome.forging_and_crafting.economic_cluster": "Economic Cluster",
+      "item.forging_and_crafting.copper_armor_boots": "铜靴子",
+      "item.forging_and_crafting.nether_upgrade_star": "升级下界合金之星",
+      "item.forging_and_crafting.forging_world": "锻造世界激活器",
+      "advancements.gold_upgrade_star_all.title": "升级金之星！！",
+      "item.forging_and_crafting.netherite_upgrade_star_hoe": "升级下界合金之锄",
+      "block.forging_and_crafting.primary_forging_table": "初级锻造机",
+      "item.forging_and_crafting.gold_upgrade_pickaxe": "升级金之稿",
+      "advancements.diamond_upgrade_star_all.descr": "当玩家获得了升级钻石之对星",
+      "item.forging_and_crafting.gold_star_upgrade_hoe": "升级金之锄",
+      "item.forging_and_crafting.diamond_star_upgrade_axe": "升级钻石之斧",
+      "item.forging_and_crafting.netherite_upgrade_star_shovel": "升级下界合金之铲",
+      "item.forging_and_crafting.nether_nugget": "下界合金碎片粒",
+      "biome.forging_and_crafting.forging_world_swqx": "锻造世界生物群系",
+      "item.forging_and_crafting.copper_particles": "铜粒"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "forging_and_crafting",
+    "modName": "Forging and Crafting",
+    "version": "1.0.3-EJP",
+    "author": "MQSMY_CMZ2, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "emi",
+      "patchouli",
+      "jade"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.forgingandcrafting",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

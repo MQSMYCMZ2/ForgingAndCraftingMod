@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldupgrade2",
+    "customModelName": "Normal",
+    "name": "Gold Star Upgrade Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 28.0,
+    "attackSpeed": 7.0,
+    "enchantability": 28,
+    "damageVsEntity": 8.0,
+    "usageCount": 4090,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoldStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

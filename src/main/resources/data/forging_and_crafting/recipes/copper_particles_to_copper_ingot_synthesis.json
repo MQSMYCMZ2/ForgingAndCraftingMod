@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "1": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "2": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "3": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "4": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "5": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "6": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "7": {
+      "item": "forging_and_crafting:copper_particles"
+    },
+    "8": {
+      "item": "forging_and_crafting:copper_particles"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot",
+    "count": 1
+  }
+}

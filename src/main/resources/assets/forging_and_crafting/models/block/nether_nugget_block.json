@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/nether_nugget_block",
+    "up": "forging_and_crafting:blocks/nether_nugget_block",
+    "north": "forging_and_crafting:blocks/nether_nugget_block",
+    "east": "forging_and_crafting:blocks/nether_nugget_block",
+    "south": "forging_and_crafting:blocks/nether_nugget_block",
+    "west": "forging_and_crafting:blocks/nether_nugget_block",
+    "particle": "forging_and_crafting:blocks/nether_nugget_block"
+  },
+  "render_type": "solid"
+}

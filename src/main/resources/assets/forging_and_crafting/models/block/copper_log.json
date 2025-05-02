@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/acacia_log_top",
+    "up": "forging_and_crafting:blocks/acacia_log_top",
+    "north": "forging_and_crafting:blocks/acacia_log",
+    "east": "forging_and_crafting:blocks/acacia_log",
+    "south": "forging_and_crafting:blocks/acacia_log",
+    "west": "forging_and_crafting:blocks/acacia_log",
+    "particle": "forging_and_crafting:blocks/acacia_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/economic_cluster_glass_block",
+    "up": "forging_and_crafting:blocks/economic_cluster_glass_top_block",
+    "north": "forging_and_crafting:blocks/economic_cluster_glass_side_block",
+    "east": "forging_and_crafting:blocks/economic_cluster_glass_side_block",
+    "south": "forging_and_crafting:blocks/economic_cluster_glass_side_block",
+    "west": "forging_and_crafting:blocks/economic_cluster_glass_side_block",
+    "particle": "forging_and_crafting:blocks/economic_cluster_glass_block"
+  },
+  "render_type": "solid"
+}

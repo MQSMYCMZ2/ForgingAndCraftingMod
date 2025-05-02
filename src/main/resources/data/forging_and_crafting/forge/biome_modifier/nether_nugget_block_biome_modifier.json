@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "forging_and_crafting:forging_world_biome",
+  "features": "forging_and_crafting:nether_nugget_block",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forging_and_crafting:blocks/glowstone",
+    "up": "forging_and_crafting:blocks/primary_forging_table_top",
+    "north": "forging_and_crafting:blocks/primary_forging_table",
+    "east": "forging_and_crafting:blocks/primary_forging_table",
+    "south": "forging_and_crafting:blocks/primary_forging_table",
+    "west": "forging_and_crafting:blocks/primary_forging_table",
+    "particle": "forging_and_crafting:blocks/glowstone"
+  },
+  "render_type": "solid"
+}

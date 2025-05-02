@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netheritestarupgradehie",
+    "customModelName": "Normal",
+    "name": "Netherite Upgrade Star Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ForgingAndCrafting"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 8,
+    "efficiency": 45.0,
+    "attackSpeed": 8.0,
+    "enchantability": 45,
+    "damageVsEntity": 20.0,
+    "usageCount": 8000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NetherUpgradeStar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "NetheriteUpgradeStarHoeDGJCZSSS"
+    }
+  }
+}

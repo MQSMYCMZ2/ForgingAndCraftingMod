@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherNugget"
+      },
+      {
+        "value": "CUSTOM:NetherNugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NetherNugget"
+      },
+      {
+        "value": "CUSTOM:NetherNugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.NETHERITE_SCRAP"
+    },
+    "name": "nether_nugget_to_netherite_scarp",
+    "namespace": "mod"
+  }
+}

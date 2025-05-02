@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "forging_and_crafting:primary_forging_table",
+    "forging_and_crafting:copper_star_block",
+    "forging_and_crafting:copper_stone",
+    "forging_and_crafting:ultimate_synthesis_platform",
+    "forging_and_crafting:ultimate_forging_table",
+    "forging_and_crafting:iron_upgrade_star_roe",
+    "forging_and_crafting:nether_nugget_block",
+    "forging_and_crafting:economic_cluster_stone"
+  ]
+}

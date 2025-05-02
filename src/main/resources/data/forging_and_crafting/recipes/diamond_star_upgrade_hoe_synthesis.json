@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "forging_and_crafting:gold_star_upgrade_hoe"
+  },
+  "addition": {
+    "item": "forging_and_crafting:diamond_star"
+  },
+  "result": {
+    "item": "forging_and_crafting:diamond_star_upgrade_hoe"
+  }
+}
